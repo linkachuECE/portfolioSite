@@ -1,0 +1,273 @@
+/* Generic fonts */
+
+html {
+    background-color: #151820;
+    font-size: 16px;
+    color: rgb(198, 197, 252);
+    font-family: monospace, sans-serif;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    /* color: white; */
+    font-size: 9em;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 5em;
+    font-weight: lighter;
+}
+
+h3 {
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    font-weight: light;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+p br {
+    margin-bottom: 1em;
+}
+
+/* Nav bar */
+
+nav {
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(61, 60, 60);
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.2);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 1;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+nav li {
+    text-decoration: none;
+    float: left;
+}
+
+nav li:hover {
+    border-bottom: 1px solid rgb(198, 197, 252);
+}
+
+nav a {
+    display: inline-block;
+    padding: 1em;
+}
+
+a, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Main section */
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 13em;
+}
+
+.description {
+    max-width: 35em;
+}
+
+section {
+    margin-bottom: 10em;
+}
+
+/* Anchors */
+.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15em;
+}
+
+header .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    border-radius: 50%;
+    width: 20em;
+    margin: 3em auto;
+}
+
+/* Projects */
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform-origin: -10px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.heading h4 {
+    margin-top: 1em;
+}
+
+.preview {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+.preview li {
+    margin: auto 1em;
+    color: white;
+    font-weight: bold;
+}
+
+.postPreview {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: color 0.3s, background-color 0.2s linear;
+}
+
+.postPreview:hover {
+    background-color: rgb(255, 255, 255);
+    color:rgba(0, 0, 0, 0);
+}
+
+#cpp {
+    background-image: url("../images/cpp.png");
+}
+
+#systemsProgramming {
+    background-image: url("../images/os-main.jpg");
+}
+
+#linux {
+    background-image: url("../images/linuxLogo.jpg");
+}
+
+#python {
+    background-image: url("../images/pythonLogo.jpg");
+}
+
+/* About section */
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Media section */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialMedia {
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.socialMedia a {
+    background-color: white;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: black solid 3px;
+    transition: background-color 0.5s;
+    margin: 0.5em;
+}
+
+.socialMedia a:hover {
+    background-color: rgb(198, 197, 252);
+}
+
+.socialMedia #insta {
+    background-image: url("../images/socialIcons/instagram.png");
+    background-size: 110%;
+}
+
+.socialMedia #twitter {
+    background-image: url("../images/socialIcons/twitter.png");
+    background-size: 115%;
+}
+
+.socialMedia #facebook {
+    background-image: url("../images/socialIcons/facebook.webp");
+    background-size: 125%;
+}
+
+.socialMedia #linkedin {
+    background-image: url("../images/socialIcons/linkedIn.png");
+    background-size: 105%;
+}
+
+.socialMedia #github {
+    background-image: url("../images/socialIcons/github.png");
+    background-position: -1px -2px;
+    background-size: 110%;
+}
+
+#contactEmail:hover {
+    text-decoration: underline;
+}
