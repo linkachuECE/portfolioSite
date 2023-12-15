@@ -115,6 +115,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     top: 13em;
 }
 
@@ -122,6 +123,8 @@ main {
     max-width: 35em;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 section {
@@ -162,6 +165,7 @@ header img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     transform-origin: -10px;
 }
 
@@ -172,8 +176,30 @@ header img {
     margin-bottom: 2em;
 }
 
+#projects img {
+    width: 40em;
+}
+
 .heading h4 {
     margin-top: 1em;
+}
+
+#projects img {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border: 5px solid #1f1d1d;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project p {
+    justify-self: center;
+    max-width: 45em;
 }
 
 .preview {

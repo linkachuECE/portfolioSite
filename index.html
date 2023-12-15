@@ -19,7 +19,7 @@
                 <li><a href="#projectsAnchor">Projects</a></li>
                 <li><a href="#aboutAnchor">About</a></li>
                 <li><a href="#social">Contact</a></li>
-                <li><a href="resume_EthanBraun.pdf" target="_blank">Resume</a></li>
+                <li><a href="Resume_EthanBraun_fall_2023.pdf" target="_blank">Resume</a></li>
             </ul>
 
             <div id="button">
@@ -32,17 +32,14 @@
             <header id="home">
                 <div class="title">
                     <h1>ETHAN BRAUN</h1>
-                    <h3>UP-AND-COMING PROGRAMMER AND WEB DESIGNER</h3>
+                    <h3>STUDENT OF COMPUTER ENGINEERING AND ELECTRICAL ENGINEERING TECHNOLOGY</h3>
                 </div>
                 <div id="pfp">
-                    <img src="images/pfp.jpg">
+                    <img src="images/pfp2.jpg">
                 </div>
                 <div class="description">
-                    <p>Hi! I'm a student of computer and electrical engineering, based out of Southern Illinois.
-                        I'm just doing the best I can.<br>
-                        While my background is in electrical engineering technology, I've been doing more to branch out into
-                        software, including microcontrollers, operating systems, and web development.<br>
-                        Give me a change and you'll see what I can do.
+                    <p>Hi! I'm Ethan, a student of computer and electrical engineering, based out of Southern Illinois.<br>
+                        My range of skills includes electrical circuits, microcontrollers and software engineering<br>
                     </p>
                 </div>
             </header>
@@ -51,29 +48,19 @@
             <section id="projects">
                 <div class="heading">
                     <h2>PROJECTS</h2>
-                    <h4>Random bullshit I work on from time to time</h4>
                 </div>
-                <ul class="preview">
-                    <li>
-                        <a class="postPreview" id="cpp" title="Random C++ Bullshit" href="https://github.com/linkachuECE/CPPTesting">
-                            Random C++ Bullshit
-                        </a>
-                    </li>
-                    <li>
-                        <a class="postPreview" id="linux" title="Random Linux Bullshit" href="https://github.com/linkachuECE/CS306_Assignment2">
-                            Random Linux Bullshit
-                        </a>
-                    <li>
-                        <a class="postPreview" id="systemsProgramming" title="Random Systems Programming Bullshit" href="https://github.com/linkachuECE/systemsProgramming">
-                            Systems Programming
-                        </a>
-                    </li>
-                    <li>
-                        <a class="postPreview" id="python" title="Random Python Bullshit" href="https://github.com/linkachuECE/pythonTesting">
-                            Python
-                        </a>
-                    </li>
-                </ul>
+                
+                <div id="antenna-project" class="project">
+                    <h3>Radio Communication using STM32</h3>
+                    <img src="images/antennaProject.jpg">
+                    <div class="description">
+                        <p>In this project, I used two STM32F103C8T6's (better known as a "Bluepill")
+                        to interface with the nRF24L01 Radio module using the SPI interface.<br>
+                        I wrote a driver that was able to successfully transmit and receive packets of information, and I used this ability to control the position
+                        of a servo motor attached to one of the Bluepills using an analog joystick remote on the other.<br>
+                        During this project, I learned a lot about STM32 devices, PWM, SPI, and UART which I used extensively for debugging. I also made liberal use of a logic analyzer using the Saleae Logic Software</p>
+                    </div>
+                </div>
             </section>
             
             <a class="anchor" id="aboutAnchor"></a>
@@ -82,17 +69,24 @@
                     <h2>ABOUT</h2>
                 </div>
                 <div class="description">
-                    <p>I started at John A. Logan College back in 2019. While there, 
-                        I learned the fundementals of circuit design, both analog and digital.
-                    I had the opportunity to toy around with projects in Raspberry Pi, Arduino, and other IoT-related projects<br>
+                    <p>I started Electrical Engineering Technology at John A. Logan College in 2019. While there, 
+                    I learned the fundamentals of circuit design, both analog and digital.
+                    I had the opportunity to learn how to use Raspberry Pi, Arduino, and PLC ladder logic.<br>
                     After that, I transferred to Southern Illinois University, where I am currently studing Computer Engineering.
-                    I've learned about such topics as operating systems, linux, algorithms, and electrical circuit design</p>
+                    I've learned about such topics as operating systems, Linux, algorithms, and electrical circuit design.<br>
+                    My first internship was with EMAC Inc., a local company specializing in embedded circuit board design. During my
+                    time there, I gained a lot of exposure to the hardware and software devlopment cycle, and got to use tools such as Altium and
+                    LTSpice. I regularly reviewed and interpreted schematics and created parts for our internal database. I also helped with
+                    testing and verifying boards, and also added functionality to a command-line tool for using PWM on one of our custom boards.<br>
+                    My second internship was at Hunter Engineering Company, where I worked regularly on an extensive C++ codebase to complete bug fixes
+                    and implement new features into the company's tire balancers. While there, I learned more about multi-threaded applications, 
+                    event-driven programming and GUI design. I also regularly worked with Visual Studio and GDB.</p>
                 </div>
             </section>
 
             <footer id="social">
                 <div id="contactEmail">
-                    <a href="mailto:ethangbraun@gmail.com" title="Email me">ethangbraun@gmail.com</a>
+                    <a href="mailto:ethan.braun@siu.edu" title="Email me">ethan.braun@siu.edu</a>
                 </div>
                 <ul class="socialMedia">
                     <li>
